@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto+Mono:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .container-main{
+        @apply max-w-[600px] mx-auto w-[90%];
+    }
+    .input{
+        @apply h-11 rounded-3xl bg-white border border-gray-200 outline-none px-4 w-full max-w-[440px] md:flex-1 ;
+    }
+    .inputItem{
+        @apply flex flex-col md:flex-row gap-3 md:gap-10  md:items-center md:justify-between;
+    }
+}
